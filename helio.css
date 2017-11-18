@@ -1,46 +1,12 @@
-body {
-    background-color: red;
-    outline-color: black;
-    outline-style: dotted;
-    outline-width: 2px;
-    margin: 20px;
-    padding: 20px;
-    background-image: url('w3css.gif');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-h1 {
-    text-shadow: 2px 2px #ff0000;
-}
-
-img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
-
 div {
-    outline-color: black;
-    outline-style: dotted;
-    outline-width: 3px;
-    opacity: 0.5;
-    margin-bottom: 20 px;
-    border-bottom-color: white;
-    box-shadow: 10px 10px 5px #888888;
+    float: left;
 
 }
 
-div p {
-    text-indent: 20px;
-    text-align-last: right;
-    white-space: nowrap;
-    color: yellowgreen;
-
-
-
-}
-
-div p #first {
-    text-indent: 20 px;
-    font-family: 'Vollkorn-SC', 'San Serif'
+div div {
+    width: 200px;
+    background-color: green;
+    margin: 10px;
+    padding: 20px;
+    
 }
